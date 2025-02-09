@@ -1,0 +1,16 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC001,Product Listings Display,"Navigate to the homepage, check product listings","Products should display with name, price, description, image",Products displayed correctly with all details,Pass,Medium,  -,Products are correctly fetched from API
+TC002,Cart Add Functionality,Add an item to the cart from the product listing,Item should be added to the cart and cart count updated,Item added successfully and cart count updated,Pass,High,-,Cart count updated correctly
+TC003,Cart Remove Functionality,Remove an item from the cart,Item should be removed and cart count updated,Item removed successfully and cart count updated,Pass,High,-,Cart remove functionality works as expected
+TC004,Product Detail Page,Click on a product and view its details,"Product details (name, description, price) should be shown",Product details displayed correctly,Pass,High,-,Detail page content matches product listing
+TC005,Form Validation for User Registration (Zod),Enter invalid email or empty password in registration form,Error message for invalid data should appear,"Invalid data caught, appropriate error messages displayed",Pass,High,-,Zod validation works as expected
+TC006,Cross-Browser Compatibility (Chrome),View marketplace on Google Chrome,Marketplace should render correctly in Chrome,Marketplace displays correctly,Pass,Low,-,Functional in Chrome
+TC007,Cross-Browser Compatibility (Firefox),View marketplace on Firefox,Marketplace should render correctly in Firefox,Marketplace displays correctly,Pass,Low,-,Functional in Firefox
+TC008,Cross-Browser Compatibility (Safari),View marketplace on Safari,Marketplace should render correctly in Safari,Marketplace displays correctly,Pass,Low,-,Functional in Safari
+TC009,Cross-Browser Compatibility (Edge),View marketplace on Microsoft Edge,Marketplace should render correctly in Edge,Marketplace displays correctly,Pass,Low,-,Functional in Edge
+TC010,Mobile Responsiveness (Mobile View),View marketplace on mobile,Layout should adjust correctly to fit the mobile screen,Layout adjusted correctly on mobile,Pass,Medium,-,Responsive across mobile devices
+TC015,Mobile Responsiveness (Tablet View),View marketplace on tablet,Layout should adjust correctly to fit the tablet screen,Layout adjusted correctly on tablet,Pass,Medium,-,Responsive across tablet devices
+TC011,Error Handling on Failed API Call,Simulate a failed API call to fetch products,"Error message should be displayed (e.g., ""Failed to load products"")",Error message displayed correctly,Pass,High,-,Error handling works with retries
+TC011,Product Add Form Validation (Zod),Submit product form with missing required fields,"Form should not submit, validation errors should appear","Form validation works, error messages shown",Pass,High,-,Zod used for validation
+TC012,Image Compression and Load Test,Load homepage with multiple product images,Images should load quickly without ,Images compressed and loading quickly,Pass,Medium,,Image optimization confirmed working
+,,,,,,,,
